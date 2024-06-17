@@ -51,7 +51,7 @@ function CreateTodoList(e){
     let div=document.createElement("div");
     div.classList.add("todo-app");
     let newList=`<div class="todo-app" id="todo-app-${id}">
-            <h2>To-Do List<img src="images/icon.png"></h2>
+            <h2>To-Do List<img src="icon.png"></h2>
             <div class="row">
                 <input type="text" id="input-box-${id}" placeholder="Add your text">
                 <button class="add" onclick="addTask(${id})">Add</button>
